@@ -17,15 +17,15 @@ import java.lang.annotation.Target;
  * </p>
  * <p>
  *     <code>
- *         @Field
+ *         {@literal @}Field
  *         private String name;
- *         @Field
+ *         {@literal @}Field
  *         private String email;
- *         @Field(name = "age")
+ *         {@literal @}Field(name = "age")
  *         private int ageOfPerson;
- *         @Field(type = OType.STRING);
+ *         {@literal @}Field(type = OType.STRING);
  *         private JSONObject extraData;
- *         @Field(name = "address")
+ *         {@literal @}Field(name = "address")
  *         public String getHomeAddress() {...}
  *     </code>
  * </p>
