@@ -3,7 +3,7 @@
 
 	<groupId>com.thehellings.gully</groupId>
 	<artifactId>orientdb</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 
 	<name>orientdb</name>
@@ -35,7 +35,7 @@
 		<connection>scm:git:https://github.com/greg-hellings/orientdb.git</connection>
 		<developerConnection>scm:git:git@github.com:greg-hellings/orientdb.git</developerConnection>
 		<url>git@github.com:greg-hellings/orientdb.git</url>
-	  <tag>HEAD</tag>
+	  <tag>1.2</tag>
   </scm>
 
 	<distributionManagement>
