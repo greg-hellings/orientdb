@@ -23,7 +23,7 @@ public class Getter <T> {
         } catch(NoSuchMethodException nse) {
             log.warning("Constructor not found. Cannot cast object.");
         }
-        this.query = "SELECT FROM " + (new Type(this.clazz)).getName() + " WHERE " + fieldName + " ? ";
+        this.query = "SELECT FROM " + (new Type(this.clazz)).getName() + " WHERE " + fieldName + " = ? ";
     }
 
     public T get(Object value) throws WrapperInstantiationException {
