@@ -19,7 +19,7 @@ public class Getter <T> {
     public Getter(Class<T> clazz, String fieldName) {
         this.clazz = clazz;
         try {
-            this.constructor = this.clazz.getConstructor(clazz);
+            this.constructor = this.clazz.getConstructor(ODocument.class);
         } catch(NoSuchMethodException nse) {
             log.warning("Constructor not found. Cannot cast object.");
         }
